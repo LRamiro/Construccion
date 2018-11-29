@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".HomeActivity"
+    android:gravity="center"
+    android:padding="50dp">
+
+    <LinearLayout
+        android:id="@+id/CementoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+        <TextView
+            android:id="@+id/TituloCementoPortland"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/annie_use_your_telescope"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:text="Cemento"
+            android:textColor="@color/colorSecondary"
+            android:textSize="40sp" />
+
+        <EditText
+            android:id="@+id/dosajeCemento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/annie_use_your_telescope"
+            android:inputType="number"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/colorSecondary"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorSecondary"
+        android:layout_below="@+id/CementoLayout">
+    </View>
+
+    <LinearLayout
+        android:id="@+id/ArenaLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/divider1"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+        <TextView
+            android:id="@+id/TituloAridoFino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/annie_use_your_telescope"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:text="Arena"
+            android:textColor="@color/colorSecondary"
+            android:textSize="40sp" />
+
+        <EditText
+            android:id="@+id/dosajeAridoFino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/annie_use_your_telescope"
+            android:inputType="number"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/colorSecondary"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorSecondary"
+        android:layout_below="@+id/ArenaLayout">
+    </View>
+
+    <LinearLayout
+        android:id="@+id/RipioLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_below="@+id/divider2"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+        <TextView
+            android:id="@+id/TituloAridoGrueso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/annie_use_your_telescope"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:text="Ripio"
+            android:textColor="@color/colorSecondary"
+            android:textSize="40sp" />
+
+        <EditText
+            android:id="@+id/dosajeAridoGrueso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/annie_use_your_telescope"
+            android:inputType="number"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/colorSecondary"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorSecondary"
+        android:layout_below="@+id/RipioLayout">
+    </View>
+
+    <LinearLayout
+        android:id="@+id/AguaLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_below="@+id/divider3">
+
+        <TextView
+            android:id="@+id/TituloAgua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/annie_use_your_telescope"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:text="Agua"
+            android:textColor="@color/colorSecondary"
+            android:textSize="40sp" />
+
+        <EditText
+            android:id="@+id/dosajeAgua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/annie_use_your_telescope"
+            android:inputType="number"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/colorSecondary"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+
